@@ -4,9 +4,8 @@
 
 @if (ViewData["ShouwAlert"] != null && (bool) ViewData["ShowAlert"] == true)
  {
-    int i = 1 + 1;
     <div class="alert alert-success" role="alert">
-        ขอขอบคุณ คุณ@(ViewData["Name"]) ทางเราจะติดต่อกลับไปที่@(ViewData["Email"])
+        ขอขอบคุณคุณ@(ViewData["Name"]) ทางเราจะติดต่อกลับไปที่@(ViewData["Email"])
     </div>
     <text>
         ขอบคุณครับ @ViewData["ShowAlert"]
